@@ -8,12 +8,30 @@
 body {
     
     font-family: Arial;
-    background-color: #f6f8f9;
+    /* background-color: #f6f8f9; */
+    background-color: black;
 }
 
 /****** 
 common 
 ******/
+
+.container {
+
+    background-color: #ffffff;
+    width: 785px;
+    margin: auto;
+    padding: 15px 50px;
+    border-bottom: 2px solid #f6f8f9;
+}
+
+.button {
+
+    background-color: red;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
 
 
 /****** 
@@ -24,6 +42,7 @@ header{
 
     background-color: #ffffff;
     height: 70px;
+    margin-bottom: 40px;
 }
 
 
@@ -46,3 +65,13 @@ header{
 /****** 
 main 
 ******/
+
+.first-part {
+
+    border-radius: 10px 10px 0 0;
+}
+
+.second-part {
+
+    border-radius: 0 0 10px 10px;
+}
