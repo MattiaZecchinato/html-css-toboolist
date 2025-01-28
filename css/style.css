@@ -16,6 +16,7 @@ body {
 common 
 ******/
 
+/* container */
 .container {
 
     background-color: #ffffff;
@@ -25,11 +26,86 @@ common
     border-bottom: 2px solid #f6f8f9;
 }
 
+/*** first part container ***/
+
+/* button style */
 .button {
 
     display: inline-block;
     border-radius: 5px;
     padding: 10px 15px;
+    font-size: 13px;
+}
+
+
+/*** second part container ***/
+
+/* section list style */
+.section-list {
+
+    margin-top: 20px;
+}
+
+.name-section {
+
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 13px;
+}
+
+/* task style */
+.task {
+
+    margin-bottom: 15px;
+}
+
+.task div {
+
+    display: inline-block;
+}
+
+/* symbol style */
+.symbol-mark {
+
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    font-size: 10px;
+    margin-left: 2px;
+}
+
+.symbol-mark span  {
+
+    padding-left: 3px;
+}
+
+.syb-check {
+
+    color: #3acab0;
+    border: 1px solid #3acab0;
+}
+
+.syb-deny {
+
+    color: #ff1010;
+    border: 1px solid #ff1010;
+}
+
+/* task name style */
+.task-name {
+
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+/* label list style */
+.label-list {
+
+    background-color: red;
+    border-radius: 12px;
+    padding: 8px 11px;
+    font-size: 10px;
+    color: #ffffff;
 }
 
 
@@ -85,11 +161,9 @@ main
     border: 1px solid #ced4d8;
 }
 
-
 /* second part container list */
 
 .second-part {
 
     border-radius: 0 0 10px 10px;
 }
-
