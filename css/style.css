@@ -101,11 +101,40 @@ common
 /* label list style */
 .label-list {
 
-    background-color: red;
     border-radius: 12px;
     padding: 8px 11px;
     font-size: 10px;
     color: #ffffff;
+}
+
+.label-edit {
+
+    background-color: #09a9ed;
+}
+
+.label-q1goal {
+
+    background-color: #ab5de6;
+}
+
+.label-recruit {
+
+    background-color: #2cc6ab;
+}
+
+.label-mobile {
+
+    background-color: #ff9b00;
+}
+
+.label-web {
+
+    background-color: #ec4a9d;
+}
+
+.label-sales {
+
+    background-color: #a3d116;
 }
 
 
