@@ -27,7 +27,6 @@ common
 
 .button {
 
-    background-color: red;
     display: inline-block;
     border-radius: 5px;
     padding: 10px 15px;
@@ -66,12 +65,31 @@ header{
 main 
 ******/
 
+/* firts part conatiner list */
+
 .first-part {
 
     border-radius: 10px 10px 0 0;
 }
 
+.task-btn {
+
+    color: #ffffff;
+    background-color: #14aaf5;
+    border: 1px solid #14aaf5;
+}
+
+.section-btn {
+
+    color: #ced4d8;
+    border: 1px solid #ced4d8;
+}
+
+
+/* second part container list */
+
 .second-part {
 
     border-radius: 0 0 10px 10px;
 }
+
